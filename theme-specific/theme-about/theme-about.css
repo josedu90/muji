@@ -1,0 +1,224 @@
+/* About Theme
+----------------------------------------------------------------*/
+.muji_about {
+	margin: 2em 2em 0 0;
+	padding: 3em;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 2px;
+	    -ms-border-radius: 2px;
+			border-radius: 2px;
+}
+@media (max-width: 959px) {
+	.muji_about {
+		margin: 1em 1em 0 0;
+		padding: 2em;
+	}
+}
+
+/* Header */
+.muji_about_header {
+	overflow:hidden;
+}
+	.muji_about_logo {
+		float: left;
+		display:inline-block;
+		max-width: 30%;
+		margin: 0 2em 1em 0;
+	}
+	@media (max-width: 783px) {
+		.muji_about_logo {
+			max-width: 50%;
+			margin: 0 0 1em 0;
+			float: none;
+		}
+	}
+	@media (max-width: 479px) {
+		.muji_about_logo {
+			max-width: 100%;
+		}
+	}
+	.muji_about_logo img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.muji_about_title {
+		text-align: left;
+		margin-top:0;
+		line-height:1.5em;
+	}
+	.muji_about_description {
+		color: #888;
+		margin-bottom: 3em;
+		line-height:1.5em;
+	}
+	.muji_about_description p {
+		font-size: 1.1538em;
+		line-height: 1.5em;
+		margin: 0.5em 0 0;
+	}
+	@media (max-width: 1279px) {
+		.muji_about_description p {
+			font-size: 1em;
+			line-height: 1.7em;
+		}
+	}
+	.muji_about_description b,
+	.muji_about_description strong {
+		color: #333;
+	}
+
+
+/* Tabs */
+#muji_about_tabs > ul > li > a {
+	background-color: #eee;
+	font-size: 1.1538em;
+}
+#muji_about_tabs > ul > li.ui-state-active > a {
+	background-color: #f7f7f7;
+}
+
+/* Sections */
+#muji_about_tabs .muji_about_section {
+	display:flex;
+	flex-wrap:wrap;
+	background-color: #f7f7f7;
+	padding: 2em;
+}
+
+/* Blocks */
+.muji_about_block {
+	display: inline-block;
+	vertical-align:top;
+	font-size: 1.1538em;
+	width: 25%;
+	padding: 0 2em 2em 0;
+	-webkit-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+@media (max-width: 1679px) {
+	.muji_about_block {
+		width: 33.3333%;
+	}
+}
+@media (max-width: 1439px) {
+	.muji_about_block {
+		width: 50%;
+	}
+}
+@media (max-width: 1279px) {
+	#muji_about_tabs > ul > li > a {
+		font-size: 1em;
+	}
+	.muji_about_block {
+		font-size: 1em;
+	}
+}
+@media (max-width: 767px) {
+	.muji_about_block {
+		width: 100%;
+		padding-right:0;
+	}
+}
+.muji_about_block_inner {
+	display: inline-block;
+	vertical-align:top;
+	width: 100%;
+	height: 100%;
+	padding: 2em;
+	-webkit-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 2px;
+	    -ms-border-radius: 2px;
+			border-radius: 2px;
+	-webkit-transition: -webkit-box-shadow .5s ease;
+	    -ms-transition: -ms-box-shadow .5s ease;
+	        transition: box-shadow .5s ease;
+}
+.muji_about_block_inner:hover {
+	-webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	    -ms-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+			box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+.muji_about_block_title {
+	margin: 0;
+}
+.muji_about_block_description {
+	margin: 1em 0;
+	line-height:1.7em;
+}
+.muji_about_block a.muji_about_block_link {
+	font-size: 1em;
+	line-height:1.7em;
+	padding:0.5em 1em;
+	height: auto;
+	display: inline-block;
+	margin: 0.5em 0;
+	vertical-align:middle;
+}
+
+/* Section 'Required actions' */
+#muji_about_section_actions .muji_about_block {
+	width: 100%;
+	padding-right:0;
+}
+#muji_about_section_actions .muji_about_block_inner {
+	border-width: 0 0 0 3px;
+	border-color: red;
+	-webkit-border-radius: 0;
+	    -ms-border-radius: 0;
+			border-radius: 0;
+}
+
+/* Section Free vs Pro */
+table.muji_about_table {
+	border-collapse: collapse;
+	width:100%;
+}
+.muji_about_table tr {
+	border-bottom: 1px solid #ddd;
+}
+.muji_about_table td {
+	padding: 2em 0;
+}
+.muji_about_table td + td {
+	padding: 2em 1em;
+	text-align: center;
+}
+.muji_about_table_info {
+	width: 70%;
+}
+.muji_about_table_check {
+	width: 15%;
+}
+.muji_about_table_info_title {
+	margin-top: 0;
+	margin-bottom: 0.3em;
+}
+.muji_about_table thead td.muji_about_table_check {
+	font-size:1.1538em;
+	font-weight:bold;
+}
+.muji_about_table td.muji_about_table_check .dashicons {
+	font-size: 2em;
+	line-height:1em;
+	width: 1em;
+	height:1em;
+}
+.muji_about_table td.muji_about_table_check .dashicons:before {
+	font-size: 1em;
+}
+.muji_about_table td.muji_about_table_check .dashicons-yes:before {
+	color:#00aa00;
+}
+.muji_about_table td.muji_about_table_check .dashicons-no:before {
+	color:#aa0000;
+}
+table.muji_about_table .muji_about_block_link {
+	float:none;
+}

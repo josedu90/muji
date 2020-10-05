@@ -1,0 +1,31 @@
+Version 1.1.0
+    Added:
+        - WP 5.5.1 compatibility
+        - PHP 7.4 compatibility
+        - elegro Crypto Payment plugin
+        - Date & Time Field plugin
+        - Themerex Updater plugin
+
+    Fixed:
+        - Theme styles
+        - Update plugins to their latest versions
+
+    Changed:
+        - Update demo data
+
+    Removed:
+        - Contact Form 7 Datepicker plugin
+
+Version 1.0.1
+    Fixed: 
+        - Update plugins to their latest versions 
+        - Compatibility with Slider Revolution 6.0.9 
+        - Compatibility with WPBakery Page Builder 6.0.5
+        - Compatibility with WooCommerce 3.7
+        - Compatibility with PHP 7.3
+        - Update scripts  libraries
+        
+    Changed: 
+        - Update demo data
+
+Release – v.1.0
